@@ -1,8 +1,8 @@
 import React from 'react';
-import { useState } from 'react/cjs/react.development';
+import { useState } from 'react';
 
 const ImageScrapper = ({images}) => {
-    const [searchBar, setSearchBar] = useState('');
+    const [searchBar, setSearchBar] = useState("");
     return (
         <>
            <div className="flex-column">
